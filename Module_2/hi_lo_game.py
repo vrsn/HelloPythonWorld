@@ -26,7 +26,8 @@ while low < high:
     user_input = input()
 
     if user_input == 'c':
-        print("That was easy :-). I needed only {} tries to get there!".format(guesses))
+        print("That was easy :-). I needed only {} \
+        tries to get there!".format(guesses))
         break
     elif user_input == 'h':
         low = guess

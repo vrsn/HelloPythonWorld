@@ -1,11 +1,12 @@
 for i in range(1, 3):
     print("Current value is {}".format(i))
 print("*" * 80)
-print("Variable 'i' ({}), used for the iteration, still exists and can be accessed!!!".format(i))
-
+print("Variable 'i' ({}), used for the iteration, \
+still exists and can be accessed!!!".format(i))
 
 name = "Vova"
-age = int(input("How old are you, {}? ".format(name))) # crashes if stringis received
+
+age = int(input("How old are you, {}? ".format(name))) # crashes if string is received
 
 if age < 18:
     print("You have to wait {} years to vote, sorry...".format(18 - age))
