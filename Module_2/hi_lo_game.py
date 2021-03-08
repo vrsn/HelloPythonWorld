@@ -18,10 +18,8 @@ while low < high:
     print("\tGuessing in range of {} to {}".format(low, high))
 
     mid = ((high - low) // 2)
-    if mid == 0:
-        mid = 1
-
     guess = low + mid
+    
     print("Your number is {}?".format(guess))
     user_input = input()
 
